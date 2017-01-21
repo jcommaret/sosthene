@@ -1,0 +1,17 @@
+body{
+	background-color: #000;
+	height:100%;
+	width: 100%;
+}
+h2{
+	color:#FFF;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+p{
+	color:#FFF;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
