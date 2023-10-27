@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <div id="topbande">
+    <header>
       <h1>Sosthène</h1>
-    </div>
+    </header>
   )
 }
 export default Header

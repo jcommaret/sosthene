@@ -8,7 +8,6 @@ function Content() {
       <Videos />
       <Header />
       <Menu />
-
       <div id="bio">
         <h1 class="title">Biographie</h1>
         <p class="text">
