@@ -1,31 +1,31 @@
-function Videos() {
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import Slider from "react-slick"
+
+export default function Videos() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  }
+
   return (
-    <div id="videocontainer">
-      <ul class="bxSlider">
-        <li class="video">
-          <iframe
-            src="https://player.vimeo.com/video/80557897?color=ffffff&amp;autoplay=0"
-            width="500"
-            height="281"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
-            allowfullscreen
-          ></iframe>
-        </li>
-        <li class="video">
-          <iframe
-            src="https://player.vimeo.com/video/102678598?color=ffffff&amp;autoplay=0"
-            width="500"
-            height="281"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
-            allowfullscreen
-          ></iframe>
-        </li>
-      </ul>
-    </div>
+    <Slider {...settings}>
+      <div className="video">
+        <iframe
+          title="video 1"
+          src="https://player.vimeo.com/video/80557897?color=ffffff&amp;autoplay=0"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="video">
+        <iframe
+          title="video 2"
+          src="https://player.vimeo.com/video/102678598?color=ffffff&amp;autoplay=0"
+        ></iframe>
+      </div>
+    </Slider>
   )
 }
-export default Videos

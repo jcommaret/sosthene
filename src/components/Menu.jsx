@@ -2,7 +2,7 @@ import cat from "../assets/tcc.png"
 
 function Menu() {
   return (
-    <div class="menu">
+    <div className="menu">
       <ul>
         <li>
           <a href="#bio">Biographie</a>
@@ -23,7 +23,7 @@ function Menu() {
             iTunes
           </a>
         </li>
-        <li class="cat">
+        <li className="cat">
           <a href="http://www.thecreative.cat">
             <img alt="Go to thecreative cat" src={cat} />
           </a>

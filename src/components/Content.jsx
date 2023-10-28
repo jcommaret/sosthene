@@ -5,12 +5,14 @@ import Videos from "./Videos"
 function Content() {
   return (
     <div id="all">
-      <Videos />
+      <div className="videocontainer">
+        <Videos />
+      </div>
       <Header />
       <Menu />
       <div id="bio">
-        <h1 class="title">Biographie</h1>
-        <p class="text">
+        <h1 className="title">Biographie</h1>
+        <p className="text">
           La musique est l'art consistant à arranger et à ordonner ou
           désordonner sons et silences au cours du temps : le rythme est le
           support de cette combinaison dans le temps, la hauteur, celle de la
