@@ -21,7 +21,7 @@ export default function Videos() {
       <div className="video">
         <iframe
           title="video 2"
-          src="https://player.vimeo.com/video/102678598?color=ffffff&amp;autoplay=0"
+          src="https://player.vimeo.com/video/877547033color=ffffff&amp;autoplay=0"
         ></iframe>
       </div>
     </Slider>
