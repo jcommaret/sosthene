@@ -1,6 +1,7 @@
-import "./App.scss"
-
 import Content from "./components/Content"
+
+import './App.scss'
+
 function App() {
   return <Content />
 }

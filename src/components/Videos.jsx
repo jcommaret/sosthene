@@ -11,17 +11,19 @@ export default function Videos() {
 
   return (
     <Slider {...settings}>
-      <div className="video">
+      <div className="video full-width-video">
         <iframe
           title="video 1"
           src="https://player.vimeo.com/video/80557897?color=ffffff&amp;autoplay=0"
+          className="full-width-video"
           allowFullScreen
         ></iframe>
       </div>
-      <div className="video">
+      <div className="video full-width-video">
         <iframe
           title="video 2"
           src="https://player.vimeo.com/video/877547033color=ffffff&amp;autoplay=0"
+          className="full-width-video"
         ></iframe>
       </div>
     </Slider>
