@@ -1,6 +1,7 @@
 // src/types.ts
 export interface Video {
   url: string;
+  thumbnail?: string;
 }
 
 export interface Link {
